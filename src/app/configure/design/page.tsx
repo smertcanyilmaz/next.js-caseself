@@ -10,12 +10,12 @@ type Props = {
 };
 
 export default async function Page({ searchParams }: Props) {
-  const { id } = searchParams;
+  const { id: caseId } = searchParams;
 
-  if (!id || typeof id !== "string") return notFound();
+  if (!caseId || typeof caseId !== "string") return notFound();
 
   const configuration = await db.configuration.findUnique({
-    where: { id },
+    where: { id: caseId },
   });
 
   if (!configuration) return notFound();

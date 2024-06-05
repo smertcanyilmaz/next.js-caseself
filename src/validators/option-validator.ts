@@ -4,8 +4,6 @@
 
 import { PRODUCT_PRICES } from "@/config/products";
 
-// import { PRODUCT_PRICES } from "@/config/products";
-
 export const COLORS = [
   { label: "Black", value: "black", tw: "zinc-900" },
   {
