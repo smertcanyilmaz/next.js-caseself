@@ -14,7 +14,7 @@ export const formatPrice = (price: number) => {
 };
 
 export function constructMetadata({
-  title = "Dresself - custom high-quality dress for yourself",
+  title = "Dresself - custom high-quality dress",
   description = "Create custom high-quality dress in seconds",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
