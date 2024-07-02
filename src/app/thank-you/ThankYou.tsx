@@ -59,7 +59,7 @@ export default function ThankYou({}: Props) {
               You made a great choice!
             </h4>
             <p className="mt-2 text-sm text-zinc-600">
-              We at Dresself believe that a dress doesn't only need to look
+              We at Caseself believe that a dress doesn't only need to look
               good, but also last you for the years to come. We offer a 2-year
               print guarantee: If you dress isn't of the highest quality, we'll
               replace it for free.

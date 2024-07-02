@@ -14,7 +14,7 @@ export const formatPrice = (price: number) => {
 };
 
 export function constructMetadata({
-  title = "Dresself - custom high-quality dress",
+  title = "Caseself - custom high-quality dress",
   description = "Create custom high-quality dress in seconds",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
@@ -40,6 +40,6 @@ export function constructMetadata({
       creator: "@smertcann",
     },
     icons,
-    metadataBase: new URL("https://next-js-dresself.vercel.app/"),
+    metadataBase: new URL("https://next-js-caseself.vercel.app/"),
   };
 }
